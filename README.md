@@ -130,20 +130,6 @@ _Nota: Los comandos específicos de prueba pueden variar según cómo estén est
 
 Por favor consulta nuestra [Guía de contribución](CONTRIBUTING.md) para más detalles. <!-- TODO: Crear un archivo CONTRIBUTING.md -->
 
-## 📄 Licencia
-
-Este proyecto está licenciado bajo [NOMBRE_LICENCIA](LICENSE) - consulta el archivo LICENSE para más detalles. <!-- TODO: Agregar un archivo LICENSE (ej. MIT, Apache 2.0) -->
-
-## 🙏 Agradecimientos
-
--   Gracias a la comunidad de Python por sus excelentes bibliotecas y herramientas.
--   A todos los contribuidores de este repositorio.
-
-## 📞 Soporte y contacto
-
--   🐛 Problemas: [GitHub Issues](https://github.com/tomascardonahincapie/taller-2/issues)
-
----
 
 <div align="center">
 
