@@ -1,158 +1,154 @@
-# 🐍 Taller 2: Python Workshop Repository
+# 🐍 Taller 2: Repositorio del Workshop de Python
 
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/tomascardonahincapie/taller-2?style=for-the-badge)](https://github.com/tomascardonahincapie/taller-2/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/tomascardonahincapie/taller-2?style=for-the-badge)](https://github.com/tomascardonahincapie/taller-2/network)
 [![GitHub issues](https://img.shields.io/github/issues/tomascardonahincapie/taller-2?style=for-the-badge)](https://github.com/tomascardonahincapie/taller-2/issues)
-[![GitHub license](https://img.shields.io/github/license/tomascardonahincapie/taller-2?style=for-the-badge)](LICENSE) <!-- TODO: Add a LICENSE file -->
+[![GitHub license](https://img.shields.io/github/license/tomascardonahincapie/taller-2?style=for-the-badge)](LICENSE) <!-- TODO: Agregar un archivo LICENSE -->
 
-**A comprehensive collection of Python exercises and projects designed for "Taller 2" (Workshop 2).**
+**Una colección completa de ejercicios y proyectos en Python diseñada para el "Taller 2".**
 
 </div>
 
-## 📖 Overview
+## 📖 Descripción general
 
-This repository serves as a learning and development environment for "Taller 2," a workshop focused on practical Python programming concepts. It contains various scripts, exercises, and potentially mini-projects organized into distinct sections, providing hands-on experience with Python's core functionalities and popular libraries. The project aims to consolidate theoretical knowledge through practical application.
+Este repositorio sirve como entorno de aprendizaje y desarrollo para el "Taller 2", un workshop enfocado en conceptos prácticos de programación en Python. Contiene diversos scripts, ejercicios y mini-proyectos organizados en secciones bien definidas, brindando experiencia práctica con las funcionalidades principales de Python y sus bibliotecas más populares. El proyecto busca consolidar el conocimiento teórico mediante la aplicación práctica.
 
-## ✨ Features
+## ✨ Características
 
-- 🐍 **Diverse Python Exercises**: A collection of scripts demonstrating various Python concepts.
-- 📦 **Dependency Management**: Uses `pip` and `requirements.txt` for easy setup of project dependencies.
-- Modular Structure: Code organized into logical sections (`Taller2`, `seccion 6`).
-- Extensible: Designed to be easily expanded with new exercises or modules.
+- 🐍 **Ejercicios variados de Python**: Una colección de scripts que demuestran distintos conceptos de Python.
+- 📦 **Gestión de dependencias**: Usa `pip` y `requirements.txt` para una configuración sencilla.
+- **Estructura modular**: Código organizado en secciones lógicas (`Taller2`, `seccion 6`).
+- **Extensible**: Diseñado para expandirse fácilmente con nuevos ejercicios o módulos.
 
-## 🛠️ Tech Stack
+## 🛠️ Stack tecnológico
 
-**Runtime:**
+**Entorno de ejecución:**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-**Package Management:**
+**Gestión de paquetes:**
 ![pip](https://img.shields.io/badge/pip-3776AB?style=for-the-badge&logo=pypi&logoColor=white)
 
-**Libraries:**
-_Specific libraries are detailed in `requirements.txt` and may include:_
-*   Data manipulation (e.g., NumPy, Pandas)
-*   Web requests (e.g., Requests)
-*   Basic web frameworks (e.g., Flask, Django)
-*   Testing utilities (e.g., pytest)
-*   Environment variable management (e.g., python-dotenv)
+**Bibliotecas:**
+_Las bibliotecas específicas están detalladas en `requirements.txt` y pueden incluir:_
+*   Manipulación de datos (ej. NumPy, Pandas)
+*   Solicitudes web (ej. Requests)
+*   Frameworks web básicos (ej. Flask, Django)
+*   Utilidades de pruebas (ej. pytest)
+*   Gestión de variables de entorno (ej. python-dotenv)
 
-## 🚀 Quick Start
+## 🚀 Inicio rápido
 
-Follow these steps to get the project up and running on your local machine.
+Sigue estos pasos para poner el proyecto en marcha en tu máquina local.
 
-### Prerequisites
--   **Python 3.x**: Ensure you have Python 3 installed. You can download it from [python.org](https://www.python.org/downloads/).
+### Requisitos previos
+-   **Python 3.x**: Asegúrate de tener Python 3 instalado. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
 
-### Installation
+### Instalación
 
-1.  **Clone the repository**
-    ```bash
+1.  **Clonar el repositorio**
+```bash
     git clone https://github.com/tomascardonahincapie/taller-2.git
     cd taller-2
-    ```
-
-2.  **Create and activate a virtual environment** (recommended)
-    ```bash
-    python -m venv .venv
-    # On Linux/macOS:
-    source .venv/bin/activate
-    # On Windows:
-    .venv\Scripts\activate
-    ```
-
-3.  **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### Running Scripts
-
-Navigate into the desired directory (e.g., `Taller2` or `seccion 6`) and execute individual Python scripts as needed.
-
-```bash
-# Example: Navigating to a section and running a script
-cd Taller2
-python your_script_name.py
 ```
-_Note: Refer to the specific instructions or comments within each script for its intended usage._
 
-## 📁 Project Structure
+2.  **Crear y activar un entorno virtual** (recomendado)
+```bash
+    python -m venv .venv
+    # En Linux/macOS:
+    source .venv/bin/activate
+    # En Windows:
+    .venv\Scripts\activate
+```
 
+3.  **Instalar dependencias**
+```bash
+    pip install -r requirements.txt
+```
+
+### Ejecutar scripts
+
+Navega al directorio deseado (ej. `Taller2` o `seccion 6`) y ejecuta los scripts de Python según sea necesario.
+```bash
+# Ejemplo: Navegar a una sección y ejecutar un script
+cd Taller2
+python nombre_de_tu_script.py
+```
+_Nota: Consulta las instrucciones o comentarios dentro de cada script para conocer su uso previsto._
+
+## 📁 Estructura del proyecto
 ```
 taller-2/
-├── Taller2/                 # Contains Python scripts and exercises for the 'Taller2' section.
-├── seccion 6/               # Contains Python scripts and exercises for 'Section 6' of the workshop.
-└── requirements.txt         # Lists all Python package dependencies for the project.
+├── Taller2/                 # Contiene scripts y ejercicios de Python para la sección 'Taller2'.
+├── seccion 6/               # Contiene scripts y ejercicios de Python para la 'Sección 6' del workshop.
+├── requirements.txt         # Lista todas las dependencias de paquetes Python del proyecto.
+└── README.md                # Documentación principal del proyecto con instrucciones de uso y configuración.
 ```
 
-## ⚙️ Configuration
+## ⚙️ Configuración
 
-Individual scripts or sub-projects within `Taller2` and `seccion 6` might have their own specific configurations.
+Los scripts individuales o sub-proyectos dentro de `Taller2` y `seccion 6` pueden tener sus propias configuraciones específicas.
 
-### Environment Variables
-If any script requires environment variables (e.g., API keys, database credentials), it's recommended to create a `.env` file in the root directory (or specific subdirectories) and load them using libraries like `python-dotenv`.
-
+### Variables de entorno
+Si algún script requiere variables de entorno (ej. claves de API, credenciales de base de datos), se recomienda crear un archivo `.env` en el directorio raíz (o subdirectorios específicos) y cargarlas usando bibliotecas como `python-dotenv`.
 ```ini
-# .env (Example)
-API_KEY=your_api_key_here
+# .env (Ejemplo)
+API_KEY=tu_clave_api_aqui
 DEBUG_MODE=True
 ```
-_Note: If `python-dotenv` is detected in `requirements.txt`, ensure your scripts are configured to load these variables._
+_Nota: Si `python-dotenv` está en `requirements.txt`, asegúrate de que tus scripts estén configurados para cargar estas variables._
 
-## 🔧 Development
+## 🔧 Desarrollo
 
-### Activating the Virtual Environment
-Before working on the project, always activate your virtual environment:
-
+### Activar el entorno virtual
+Antes de trabajar en el proyecto, activa siempre tu entorno virtual:
 ```bash
-# On Linux/macOS:
+# En Linux/macOS:
 source .venv/bin/activate
-# On Windows:
+# En Windows:
 .venv\Scripts\activate
 ```
 
-### Running Tests
-If testing frameworks like `pytest` are included in `requirements.txt` and tests are defined (e.g., in `tests/` directories within sub-projects), you can run them using:
-
+### Ejecutar pruebas
+Si hay frameworks de pruebas como `pytest` incluidos en `requirements.txt` y se han definido pruebas (ej. en directorios `tests/` dentro de sub-proyectos), puedes ejecutarlas con:
 ```bash
 pytest
 ```
-_Note: Specific test commands may vary based on how individual modules are structured._
+_Nota: Los comandos específicos de prueba pueden variar según cómo estén estructurados los módulos individuales._
 
-## 🤝 Contributing
+## 🤝 Contribuciones
 
-We welcome contributions to enhance this workshop repository! If you have suggestions for improvements, new exercises, or bug fixes, please follow these steps:
+¡Bienvenidas las contribuciones para mejorar este repositorio del workshop! Si tienes sugerencias, nuevos ejercicios o correcciones de errores, sigue estos pasos:
 
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature-name`).
-3.  Make your changes.
-4.  Commit your changes (`git commit -m 'feat: Add new feature'`).
-5.  Push to the branch (`git push origin feature/your-feature-name`).
-6.  Open a Pull Request.
+1.  Haz un fork del repositorio.
+2.  Crea una nueva rama (`git checkout -b feature/nombre-de-tu-feature`).
+3.  Realiza tus cambios.
+4.  Confirma tus cambios (`git commit -m 'feat: Agregar nueva funcionalidad'`).
+5.  Sube la rama (`git push origin feature/nombre-de-tu-feature`).
+6.  Abre un Pull Request.
 
-Please see our [Contributing Guide](CONTRIBUTING.md) for more details. <!-- TODO: Create a CONTRIBUTING.md file -->
+Por favor consulta nuestra [Guía de contribución](CONTRIBUTING.md) para más detalles. <!-- TODO: Crear un archivo CONTRIBUTING.md -->
 
-## 📄 License
+## 📄 Licencia
 
-This project is licensed under the [LICENSE_NAME](LICENSE) - see the LICENSE file for details. <!-- TODO: Add a LICENSE file (e.g., MIT, Apache 2.0) -->
+Este proyecto está licenciado bajo [NOMBRE_LICENCIA](LICENSE) - consulta el archivo LICENSE para más detalles. <!-- TODO: Agregar un archivo LICENSE (ej. MIT, Apache 2.0) -->
 
-## 🙏 Acknowledgments
+## 🙏 Agradecimientos
 
--   Thanks to the Python community for excellent libraries and tools.
--   All contributors to this repository.
+-   Gracias a la comunidad de Python por sus excelentes bibliotecas y herramientas.
+-   A todos los contribuidores de este repositorio.
 
-## 📞 Support & Contact
+## 📞 Soporte y contacto
 
--   🐛 Issues: [GitHub Issues](https://github.com/tomascardonahincapie/taller-2/issues)
+-   🐛 Problemas: [GitHub Issues](https://github.com/tomascardonahincapie/taller-2/issues)
 
 ---
 
 <div align="center">
 
-**⭐ Star this repo if you find it helpful!**
+**⭐ ¡Dale una estrella si te resulta útil!**
 
-Made with ❤️ by [tomascardonahincapie](https://github.com/tomascardonahincapie)
+Hecho con ❤️ por [tomascardonahincapie](https://github.com/tomascardonahincapie)
 
 </div>
